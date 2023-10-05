@@ -1,0 +1,98 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: lavenderblush;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    border-style: solid transparent;
+    border-radius: 15px;
+    min-width: 300px;
+    -webkit-box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
+    -moz-box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
+    box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
+    background-image: linear-gradient(pink, transparent, white);
+} 
+h2{
+    color:rgb(63, 1, 72);
+}
+.input{
+    width: 40%;
+    background-color: transparent;
+    margin-top: 10px;
+    border-style: none;
+    border-bottom: 1px solid #000000;
+    color: black;
+}
+.input:hover{
+    background-color: pink;
+    cursor: text;
+}
+.submit-btn{
+    background-image: linear-gradient(
+    to right,
+    #dc2424 0%,
+    #4a569d 51%,
+    #dc2424 100%
+    );
+    padding: 15px 40px;
+    border-radius: 12px;
+    margin: 5px;
+    border-style: none;
+    cursor: pointer;
+    display: inline;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+}
+.submit-btn:hover{
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.logo{
+    padding-top: 20px;
+}
+.link{
+    background-color: transparent;
+    color: cyan;
+    border-style: none;
+}
+.link:hover{
+    background-color: transparent;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    padding: 10px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+    color: rgb(215, 35, 215);
+    transform: scale(1.5);
+}
+#services{
+    width: 40%;
+    background-color: transparent;
+    margin-top: 10px;
+    border-style: none;
+    border-bottom: 1px solid #000000;
+}
+#services:hover{
+    cursor: pointer;
+}
