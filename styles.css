@@ -7,7 +7,6 @@ body{
     align-items: center;
     padding-top: 80px;
     background-color: lavenderblush;
-    
 }
 .box{
     display: flex;
@@ -20,7 +19,8 @@ body{
     -webkit-box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
     -moz-box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
     box-shadow: 57px 39px 115px -9px rgba(237,109,237,0.34);
-    background-image: linear-gradient(pink, transparent, white);
+    background-image: linear-gradient(rgb(252, 204, 212),
+     rgb(241, 162, 175), rgb(213, 132, 146), rgb(183, 74, 92));
 } 
 h2{
     color:rgb(63, 1, 72);
@@ -77,13 +77,14 @@ h2{
 .social-icons{
     display: flex;
     justify-content: center;
+    color:rgb(63, 1, 72) !important;
 }
 .fa-brands{
     padding: 10px;
 }
 .fa-brands:hover{
     cursor: pointer;
-    color: rgb(215, 35, 215);
+    color: rgb(215, 35, 215) !important;
     transform: scale(1.5);
 }
 #services{
@@ -96,3 +97,22 @@ h2{
 #services:hover{
     cursor: pointer;
 }
+.btn-row{
+    display: flex;
+    justify-content: center;
+}
+.log-in, .book{
+    flex-grow: 1;
+}
+.book{
+    padding: 0px 5px 0px 5px;
+}
+a:hover,
+a:visited,
+a:link,
+a:active
+{
+    text-decoration: none;
+    color: white;  
+}
+
